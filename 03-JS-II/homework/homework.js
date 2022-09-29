@@ -61,7 +61,7 @@ function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-return numero === 10 || 5;
+return numero === 10 || numero === 5;
 }
 
 function estaEnRango(numero) {
@@ -79,7 +79,8 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-
+if (esEntero (numero) ) {return true}
+return false;
 }
 
 function fizzBuzz(numero) {
