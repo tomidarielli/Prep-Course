@@ -136,9 +136,9 @@ function tablaDelSeis(){
   //Escribe tu código aquí   
   var tabladeseis = [];
   for (var i = 0; i <= 10; i++ ) 
-  tabladeseis.push (6 * i)
-} 
+  {tabladeseis.push (6 * i)} 
 return tabladeseis
+}
 
 
 function tieneTresDigitos(numero){
