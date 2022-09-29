@@ -79,7 +79,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-if (esEntero (numero) ) {return true}
+if (numero % 1 === 0) {return true}
 return false;
 }
 
