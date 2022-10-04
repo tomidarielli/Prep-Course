@@ -38,7 +38,7 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // y devuelve el array
   // Tu código:
 var i = elemento;
-  return array.push [i]
+  return array.push (elemento)
 }
 
 
