@@ -79,6 +79,12 @@ function agregarNumeros(numeros) {
   // "numeros" debe ser un arreglo de enteros (int/integers)
   // Suma todos los enteros y devuelve el valor
   // Tu código:
+var suma = 0;
+for (var i = 0; i < numeros.length; i++) {
+  suma += numeros[i]
+  
+}
+return suma;
 }
 
 
@@ -86,6 +92,12 @@ function promedioResultadosTest(resultadosTest) {
   // "resultadosTest" debe ser una matriz de enteros (int/integers)
   // Itera (en un bucle) los elementos del array, calcula y devuelve el promedio de puntajes
   // Tu código:
+  var promedio = 0;
+  for (var i = 0; i < resultadosTest.length; i++) {
+  promedio += resultadosTest [i] / resultadosTest.length
+  
+}
+return Math.round (promedio);
 }
 
 
